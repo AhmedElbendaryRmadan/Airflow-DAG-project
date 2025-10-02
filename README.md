@@ -28,10 +28,10 @@ Operator: PythonOperator
 Output: Random number between 1-1000 saved to random.txt
 Operator: PythonOperator
 
-🔧 Technologies Used
-Apache Airflow
-Python 3.x
-Bash
+🔧 Technologies Used:- 
+Apache Airflow 
+Python 3.x 
+Bash 
 SQLite (for other DAGs in project)
 
 👨‍💻 Author    
