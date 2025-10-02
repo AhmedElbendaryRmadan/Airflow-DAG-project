@@ -1,7 +1,7 @@
 # Airflow DAG Project
 This project contains an Apache Airflow DAG named `Airflow_Depi` that demonstrates basic task operations and dependencies.
 
-## 📋 Project Description
+## 📋 Project Description:- 
 A simple Airflow DAG with three sequential tasks:
 1. **Print Current Date** - Uses BashOperator to display the current date
 2. **Print Welcome Message** - Uses PythonOperator to print a personalized welcome message
@@ -14,17 +14,18 @@ A simple Airflow DAG with three sequential tasks:
 - **Task Order**: Task 1 → Task 2 → Task 3
 - **Dependencies**: Sequential execution
 
-🎯 Task Outputs
+🎯 Task Outputs:-
+
 **Task 1**: Print Current Date
 Output: Current system date and time
 Operator: BashOperator
 
 **Task 2**: Welcome Message
-Output: "Welcome Ahmed Elbendary!"
+Output: "Welcome Ahmed Elbendary"
 Operator: PythonOperator
 
 **Task 3**: Random Number Generation
-Output: Random number between 1-1000 saved to /tmp/random.txt
+Output: Random number between 1-1000 saved to random.txt
 Operator: PythonOperator
 
 🔧 Technologies Used
